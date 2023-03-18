@@ -1,0 +1,492 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+.offcanvas {
+    display: none;
+}
+.modal-backdrop.show {
+    opacity: 0;
+}
+.logo img {
+    width:90%;
+}
+.menu-area ul li {
+    margin-right:20px;
+}
+
+.ct-area ul li:first-child a {
+    font-size:16px;
+}
+.ct-area ul li:first-child a span {
+    font-size:16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.logo i{
+    display: block;
+}
+.menu-area {
+    display: none;
+}
+.ct-area {
+    display: none;
+}
+.offcanvas {
+    display: block;
+}
+.modal-backdrop.show {
+    opacity: 0.5;
+}
+.offcanvas-start {
+    width: 350px;
+}
+.offcanvas-header img {
+    width: 70%;
+}
+
+.hero-area {
+    padding-top:120px;
+    padding-bottom:100px;
+}
+.hero-item h1{
+    font-size:35px;
+    line-height:50px;
+}
+.hero-item p {
+    font-size:16px;
+    line-height:26px;
+    margin-top:10px;
+}
+.hero-item a  {
+    margin-top:20px;
+}
+.love-ndis-area {
+    padding-top:50px;
+}
+.love-ndis-text {
+    padding: 0 20px;
+    text-align: center;
+}
+.love-ndis-text p {
+    font-size:16px;
+}
+.love-ndis-img img {
+    width: 45%;
+}
+.love-ndis-text a {
+    margin-top: 10px;
+    margin-bottom:40px;
+}
+.service-area {
+    padding-top:80px;
+}
+.service-header h2 {
+    font-size:32px;
+    line-height:35px;
+    margin-bottom:20px;
+}
+
+.review-area {
+    margin-top:50px;
+}
+.review-header h2 {
+    margin-bottom:20px;
+    font-size:32px;
+}
+.review-bg {
+    padding:50px 0;
+}
+.review-item .item h6 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+}
+.customer-profile {
+    margin-top:50px;
+}
+.owl-dots {
+    position: absolute;
+    top:98%;
+    left:42%;
+}
+.form-area {
+    padding-top:50px;
+}
+.select-service {
+    width: 100%;
+}
+.select-service label {
+    display: block;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-left:15px;
+}
+.form-btn button {
+    margin-bottom:40px;
+}
+.form-header {
+    margin-top:50px;
+    margin-bottom:30px;
+}
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+.logo i{
+    display: block;
+}
+.menu-area {
+    display: none;
+}
+.ct-area {
+    display: none;
+}
+.offcanvas {
+    display: block;
+}
+.modal-backdrop.show {
+    opacity: 0.5;
+}
+.offcanvas-start {
+    width: 350px;
+}
+.offcanvas-header img {
+    width: 70%;
+}
+
+
+.hero-area {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.hero-item h1{
+    font-size:28px;
+    line-height:50px;
+}
+.hero-item a {
+    margin-top:10px;
+}
+.hero-item p {
+    font-size:14px;
+    line-height:26px;
+    margin-top:0px;
+}
+.love-ndis-area {
+    padding-top:30px;
+}
+.love-ndis-text {
+    padding: 0 20px;
+    text-align: center;
+}
+.love-ndis-img img {
+    width:40%;
+}
+.love-ndis-text p {
+    font-size:16px;
+}
+.love-ndis-text a {
+    margin-top: 0px;
+    margin-bottom:30px;
+}
+.service-area {
+    padding-top:80px;
+}
+.service-header h2 {
+    font-size:28px;
+    line-height:35px;
+    margin-bottom:5px;
+}
+
+.review-area {
+    margin-top:50px;
+}
+.review-header h2 {
+    margin-bottom:20px;
+    font-size:32px;
+}
+.review-bg {
+    padding:50px 0;
+}
+.review-item .item h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.customer-profile {
+    margin-top:20px;
+}
+.owl-dots {
+    position: absolute;
+    top:98%;
+    left:42%;
+}
+.form-area {
+    padding-top:50px;
+}
+.select-service {
+    width: 100%;
+}
+.select-service label {
+    margin-right:10px;
+    margin-bottom:10px;
+}
+.form-btn button {
+    margin-bottom:40px;
+}
+.form-header {
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.form-header h2 {
+    font-size:28px;
+}
+.form-header p {
+    font-size:16px;
+}
+.select-service h4 {
+    font-size:16px;
+    margin-bottom: 10px;
+}
+.select-service label {
+    font-size:13px;
+}
+.select-service label {
+    display: block;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+.logo i{
+    display: block;
+}
+.menu-area {
+    display: none;
+}
+.ct-area {
+    display: none;
+}
+.offcanvas {
+    display: block;
+}
+.modal-backdrop.show {
+    opacity: 0.5;
+}
+.offcanvas-start {
+    width: 300px;
+}
+.offcanvas-header img {
+    width: 70%;
+}
+
+
+.hero-area {
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.hero-item h1{
+    font-size:20px;
+    line-height:40px;
+}
+.hero-item a {
+    margin-top:10px;
+}
+.hero-item p {
+    font-size:12px;
+    line-height:26px;
+    margin-top:10px;
+}
+.love-ndis-area {
+    padding-top:30px;
+}
+.love-ndis-text {
+    padding: 0 20px;
+    text-align: center;
+}
+.love-ndis-img img {
+    width:40%;
+}
+.love-ndis-text p {
+    font-size:14px;
+}
+.love-ndis-text a {
+    margin-top: 0px;
+    margin-bottom:30px;
+}
+.service-area {
+    padding-top:80px;
+}
+.service-header h2 {
+    font-size:20px;
+    line-height:35px;
+    margin-bottom:5px;
+}
+.service-item h3 {
+    font-size:16px;
+    margin-top: 15px;
+}
+.service-item a  {
+    margin-top:5px;
+}
+.review-area {
+    margin-top:50px;
+}
+.review-header h2 {
+    margin-bottom:20px;
+    font-size:32px;
+}
+.review-bg {
+    padding:50px 0;
+}
+.review-header h2 {
+    font-size:20px;
+}
+.review-item .item h6 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+}
+.customer-profile {
+    margin-top:20px;
+}
+.customer-profile h5 {
+    font-size:18px;
+}
+.owl-dots {
+    position: absolute;
+    top:98%;
+    left:35%;
+}
+.form-area {
+    padding-top:50px;
+}
+.select-service {
+    width: 100%;
+}
+.select-service label {
+    display: block;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-left:15px;
+}
+.form-btn button {
+    margin-bottom:40px;
+}
+.form-header {
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.form-header h2 {
+    font-size:20px;
+    line-height: 30px;
+}
+.form-header p {
+    font-size:14px;
+    line-height: 25px;
+}
+.select-service h4 {
+    font-size:16px;
+    margin-bottom: 10px;
+}
+.select-service label {
+    font-size:13px;
+}
+.form-item input  {
+    height:40px;
+    margin-bottom: 10px;
+}
+.footer-item img {
+    width: 50%;
+}
+.footer-item h3 {
+    font-size:18px;
+    margin-bottom:10px;
+}
+.footer-item ul li {
+    margin-bottom:10px;
+}
+.footer-item p {
+    font-size: 14px;
+}
+.footer-item ul li a {
+    font-size:14px;
+}
+.footer-item h4 {
+    font-size:18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
